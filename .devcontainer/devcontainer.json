@@ -1,0 +1,16 @@
+{
+  "name": "myFirstDevContainer",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces",
+  "customizations": {
+    "vscode": {
+      "settings": {
+				"workbench.colorTheme": "Visual Studio Dark"
+			},
+      "extensions": ["formulahendry.auto-complete-tag", "formulahendry.auto-rename-tag", "streetsidesoftware.code-spell-checker", "chrisvltn.log-wrapper-for-vscode"]
+    }
+  },
+  "forwardPorts": [3000]
+
+}
