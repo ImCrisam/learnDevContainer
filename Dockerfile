@@ -1,5 +1,9 @@
-FROM mcr.microsoft.com/devcontainers/typescript-node:0-18
+FROM node:18-bullseye
 
+
+WORKDIR /workspaces
+
+CMD ["sleep", "infinity"]
 # # Install SQL Tools: SQLPackage and sqlcmd
 # COPY mssql/installSQLtools.sh installSQLtools.sh
 # RUN bash ./installSQLtools.sh \

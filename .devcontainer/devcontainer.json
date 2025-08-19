@@ -1,7 +1,7 @@
 {
   "name": "myFirstDevContainer",
-	"dockerComposeFile": "docker-compose.yml",
-	"service": "app",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "devcontainer",
 	"workspaceFolder": "/workspaces",
   "customizations": {
     "vscode": {

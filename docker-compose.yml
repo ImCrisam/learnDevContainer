@@ -1,0 +1,11 @@
+services:
+  devcontainer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/workspaces
+    working_dir: /workspaces
+    command: sleep infinity
+    ports:
+      - "3000:3000"
